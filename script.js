@@ -47,10 +47,10 @@ btns.forEach((btn) => {
     });
 });
 
-const gameDraw = () => {
+const gameDraw = (winner) => {
     msg.innerText = `Game was a Draw.`;
     winmsg.classList.remove("hidden");
-    disableBoxes();
+    disablebtns();
   };
 
 const disablebtns = () => {
